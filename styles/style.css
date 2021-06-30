@@ -1,0 +1,32 @@
+/* Common CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.criminal-convictions-details-div {
+    display: none;
+}
+
+.criminal-offence-details-div {
+    display: none;
+}
+
+.studied-uk-previously-details {
+    display: none;
+}
+
+.curtailment-letter-details {
+    display: none;
+}
+
+.visa-refusal-letter-details {
+    display: none;
+}
+
+.disability-details {
+    display: none;
+}
+
+ul li {
+    padding: 5px 0;
+}

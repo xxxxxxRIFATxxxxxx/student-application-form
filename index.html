@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Student Application Form" />
+    <meta name="keywords" content="Student, Application, Form" />
+    <meta name="author" content="Md. Rifat Islam" />
+    <title>Student Application Form</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/favicon.png" type="image/gif" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <div class="border p-3">
+                <!-- Form Header -->
+                <div>
+                    <div class="bg-primary px-4 py-5 text-white">
+                        <h1>Student Application Form</h1>
+                    </div>
+                    <div class="container">
+                        <p class="px-5 py-4 text-justify">Please read the notes at the back before completing this
+                            form.
+                            It is
+                            important
+                            that you write
+                            neatly using BLOCK
+                            CAPITALS in black ink or typescript. If available, you must include a copy of the
+                            personal
+                            details page from your
+                            passport (the page that contains the passport number and your photo). Incomplete
+                            application
+                            forms submitted
+                            without ALL the supporting documents may delay the issuing of your offer.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 1 Personal Details -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">1 Personal Details</h4>
+                    </div>
+
+                    <form class="py-3">
+                        <div class="mb-3 d-flex">
+                            <label for="title" class="form-label me-3 fw-bold">Title:</label>
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="title" id="mr">
+                                <label class="form-check-label" for="mr">
+                                    Mr
+                                </label>
+                            </div>
+
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="title" id="mrs">
+                                <label class="form-check-label" for="mrs">
+                                    Mrs
+                                </label>
+                            </div>
+
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="title" id="miss">
+                                <label class="form-check-label" for="miss">
+                                    Miss
+                                </label>
+                            </div>
+
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="title" id="ms">
+                                <label class="form-check-label" for="ms">
+                                    Ms
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="first-name" class="form-label fw-bold">First Name <small
+                                    class="fw-normal">(s)</small>:</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="family-name" class="form-label fw-bold">Family Namesm<small
+                                    class="fw-normal">(s)</small>:</label>
+                            <input type="text" class="form-control" id="family-name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="previous-family-name" class="form-label fw-bold">Previous family name
+                                <small class="fw-normal">(if
+                                    changed)</small>:</label>
+                            <input type="text" class="form-control" id="previous-family-name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="passport-number" class="form-label fw-bold">Passport number and country of
+                                issue:</label>
+                            <input type="text" class="form-control" id="passport-number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correspondence-address" class="form-label fw-bold">Correspondence
+                                address:</label>
+                            <textarea name="correspondence-address" id="correspondence-address" cols="30" rows="10"
+                                class="form-control"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correspondence-postcode" class="form-label fw-bold">Postcode:</label>
+                            <input type="number" class="form-control" id="correspondence-postcode">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correspondence-telephone" class="form-label fw-bold">Telephone
+                                <small class="fw-normal">(including international code)</small>:</label>
+                            <input type="number" class="form-control" id="correspondence-telephone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correspondence-mobile" class="form-label fw-bold">Mobile
+                                <small class="fw-normal">(including international code)</small>:</label>
+                            <input type="number" class="form-control" id="correspondence-mobile">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="permanent-address" class="form-label fw-bold">
+                                Permanent/Home address <small class="fw-normal">(if different)</small>:
+                            </label>
+                            <textarea name="permanent-address" id="permanent-address" cols="30" rows="10"
+                                class="form-control"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="permanent-postcode" class="form-label fw-bold">Postcode:</label>
+                            <input type="number" class="form-control" id="permanent-postcode">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="permanent-telephone" class="form-label fw-bold">Telephone
+                                <small class="fw-normal">(including international code)</small>:</label>
+                            <input type="number" class="form-control" id="permanent-telephone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="permanent-mobile" class="form-label fw-bold">Mobile
+                                <small class="fw-normal">(including international code)</small>:</label>
+                            <input type="number" class="form-control" id="permanent-mobile">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Current email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="skype-id " class="form-label fw-bold">Skype ID:</label>
+                            <input type="email" class="form-control" id="skype-id">
+                        </div>
+
+                        <!-- Criminal Convictions -->
+                        <div class="criminal-convictions">
+                            <div class="mb-3 d-flex">
+                                <label for="criminal-convictions" class="form-label me-3 fw-bold">Do you have any
+                                    criminal
+                                    convictions?:</label>
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="criminal-convictions"
+                                        id="criminal-convictions-yes" value="yes">
+                                    <label class="form-check-label" for="criminal-convictions-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="criminal-convictions"
+                                        id="criminal-convictions-no" value="no">
+                                    <label class="form-check-label" for="criminal-convictions-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- If Yes -->
+                            <div class="mb-3 criminal-convictions-details-div">
+                                <label for="criminal-convictions-details" class="form-label fw-bold">
+                                    Criminal Convictions Details:
+                                </label>
+                                <input type="text" class="form-control" id="criminal-convictions-details">
+                            </div>
+                        </div>
+
+                        <!-- Criminal Offence -->
+                        <div class="criminal-offence">
+                            <div class="mb-3">
+                                <label for="criminal-offence" class="form-label me-3 fw-bold">
+                                    Have you received any other penalty in relation to a criminal offence; for
+                                    example a caution, reprimand, warning, or similar penalties in
+                                    the UK or any other country?
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="criminal-offence"
+                                        id="criminal-offence-yes" value="yes">
+                                    <label class="form-check-label" for="criminal-offence-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="criminal-offence"
+                                        id="criminal-offence-no" value="no">
+                                    <label class="form-check-label" for="criminal-offence-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- If Yes -->
+                            <div class="mb-3 criminal-offence-details-div">
+                                <label for="criminal-offence-details" class="form-label fw-bold">
+                                    Criminal Offence Details:
+                                </label>
+                                <input type="text" class="form-control" id="criminal-offence-details">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 2 Fee Status and UK Immigration History -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">2 Fee Status and UK Immigration History</h4>
+                    </div>
+
+                    <form class="py-3">
+                        <div class="mb-3">
+                            <label for="country-of-birth" class="form-label fw-bold">
+                                Country of birth:
+                            </label>
+                            <input type="text" class="form-control" id="country-of-birth">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="present-nationality" class="form-label fw-bold">
+                                Present nationality:
+                            </label>
+                            <input type="text" class="form-control" id="present-nationality">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="country-of-domicile" class="form-label fw-bold">
+                                Country of Domicile:
+                            </label>
+                            <input type="text" class="form-control" id="country-of-domicile">
+                        </div>
+
+                        <div class="uk-resident">
+                            <div class="mb-3">
+                                <label for="uk-resident" class="form-label me-3 fw-bold">
+                                    Are you currently a resident in the UK?
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="uk-resident" id="uk-resident-yes"
+                                        value="yes">
+                                    <label class="form-check-label" for="uk-resident-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="uk-resident" id="uk-resident-no"
+                                        value="no">
+                                    <label class="form-check-label" for="uk-resident-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="refused-visa">
+                            <div class="mb-3">
+                                <label for="refused-visa" class="form-label me-3 fw-bold">
+                                    Have you ever been refused a Visa to any country?
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="refused-visa"
+                                        id="refused-visa-yes" value="yes">
+                                    <label class="form-check-label" for="refused-visa-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="refused-visa"
+                                        id="refused-visa-no" value="no">
+                                    <label class="form-check-label" for="refused-visa-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="denied-entry-uk">
+                            <div class="mb-3">
+                                <label for="denied-entry-uk" class="form-label me-3 fw-bold">
+                                    Have you been denied entry to the UK before?
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="denied-entry-uk"
+                                        id="denied-entry-uk-yes" value="yes">
+                                    <label class="form-check-label" for="denied-entry-uk-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="denied-entry-uk"
+                                        id="denied-entry-uk-no" value="no">
+                                    <label class="form-check-label" for="denied-entry-uk-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="uk-visa-granted">
+                            <div class="mb-3">
+                                <label for="uk-visa-granted" class="form-label me-3 fw-bold">
+                                    Have you ever overstayed any type of UK Visa
+                                    granted to you?
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="uk-visa-granted"
+                                        id="uk-visa-granted-yes" value="yes">
+                                    <label class="form-check-label" for="uk-visa-granted-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="uk-visa-granted"
+                                        id="uk-visa-granted-no" value="no">
+                                    <label class="form-check-label" for="uk-visa-granted-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Studied in the UK previously -->
+                        <div class="studied-uk-previously">
+                            <div class="mb-3">
+                                <label for="studied-uk-previously" class="form-label me-3 fw-bold">
+                                    Have you studied in the UK previously? If
+                                    yes, provide details below.
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="studied-uk-previously"
+                                        id="studied-uk-previously-yes" value="yes">
+                                    <label class="form-check-label" for="studied-uk-previously-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="studied-uk-previously"
+                                        id="studied-uk-previously-no" value="no">
+                                    <label class="form-check-label" for="studied-uk-previously-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- if Yes -->
+                            <div class="studied-uk-previously-details">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">UK Visa Number</th>
+                                            <th scope="col">Visa Type</th>
+                                            <th scope="col">Valid From</th>
+                                            <th scope="col">Valid To</th>
+                                            <th scope="col">Institution</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody class="studied-uk-previously-details-tbody">
+                                    </tbody>
+                                </table>
+
+                                <form>
+                                    <div class="d-flex">
+                                        <div class="mb-3 me-2">
+                                            <input type="text" class="form-control" id="uk-visa-number"
+                                                placeholder="UK Visa Number">
+                                        </div>
+
+                                        <div class="mb-3 me-2">
+                                            <input type="text" class="form-control" id="visa-type"
+                                                placeholder="Visa Type">
+                                        </div>
+
+                                        <div class="mb-3 me-2">
+                                            <input type="text" class="form-control" id="valid-from"
+                                                placeholder="Valid From">
+                                        </div>
+
+                                        <div class="mb-3 me-2">
+                                            <input type="text" class="form-control" id="valid-to"
+                                                placeholder="Valid To">
+                                        </div>
+
+                                        <div class="mb-3 me-2">
+                                            <input type="text" class="form-control" id="institution"
+                                                placeholder="Institution">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-primary btn-sm"
+                                            id="studied-uk-previously-details-add-btn" type="button">
+                                            Add
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 3 Agent Details -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">3 Agent Details (to be completed if applying through an Agent)</h4>
+                    </div>
+
+                    <form class="py-3">
+                        <div class="mb-3">
+                            <label for="agent-code" class="form-label fw-bold">
+                                Agent <small class="fw-normal"> (Code)</small>
+                            </label>
+                            <input type="text" class="form-control" id="agent-code">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="contact-name" class="form-label fw-bold">
+                                Contact name
+                            </label>
+                            <input type="text" class="form-control" id="contact-name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="agent-address" class="form-label fw-bold">
+                                Agent address:
+                            </label>
+                            <textarea name="agent-address" id="agent-address" cols="30" rows="10" class="form-control">
+                            </textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="agent-postcode" class="form-label fw-bold">
+                                Postcode:
+                            </label>
+                            <textarea name="agent-address" id="agent-postcode" cols="30" rows="10" class="form-control">
+                            </textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="agent-country" class="form-label fw-bold">
+                                Country:
+                            </label>
+                            <input type="text" class="form-control" id="agent-country">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="agent-email" class="form-label fw-bold">
+                                Email:
+                            </label>
+                            <input type="email" class="form-control" id="agent-email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="agent-telephone" class="form-label fw-bold">
+                                Telephone <small class="fw-bold">(including international code)</small>:
+                            </label>
+                            <input type="number" class="form-control" id="agent-telephone">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 4 Details of Courses -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">4 Details of Course(s) for which you wish to Apply</h4>
+                    </div>
+
+                    <form class="py-3">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Course title</th>
+
+                                    <th scope="col">Undergraduate (UG) or Postgraduate (PG)?</th>
+                                    <th scope="col">If you require UG Advanced Level Entry – please state Level 2 or
+                                        3 (complete Section 4a)</th>
+                                    <th scope="col">Month/year on entry</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="details-of-course-tbody">
+
+                            </tbody>
+                        </table>
+
+                        <!-- For Details of Courses -->
+                        <form>
+                            <div class="d-flex">
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="course-title"
+                                        placeholder="Course title">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="under-ug-or-post-pg"
+                                        placeholder="Undergraduate (UG) or Postgraduate (PG)">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="ug-advance"
+                                        placeholder="If you require UG Advanced Level Entry – please state Level 2 or 3 (complete Section 4a)">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="month-year-entry"
+                                        placeholder="Month/year on entry">
+                                </div>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary btn-sm" id="details-of-course-add-btn" type="button">
+                                    Add
+                                </button>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+
+                <!-- 4a To be Completed -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            4a To be Completed for Entry on to Degree Level 2 or 3
+                        </h4>
+                    </div>
+
+                    <div>
+                        <p class="text-justify pt-2">Please include a transcript (detailed mark certificate) of all
+                            units
+                            of learning
+                            successfully studied, as well as detailed information
+                            which clearly states what curriculum was covered in each unit of learning. To confirm
+                            the units for your University of Bedfordshire
+                            programme, please check the relevant course page on our website.
+                        </p>
+
+                        <p class="text-justify">
+                            Please tick which of the following you are including as evidence to support your claim
+                            (claims will not be considered without the
+                            required evidence):
+                        </p>
+                    </div>
+
+                    <form class="py-3">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox"
+                                        value="official certificates and transcripts"
+                                        id="official-certificates-and-transcripts">
+                                    <label class="form-check-label" for="official-certificates-and-transcripts">
+                                        official certificates and transcripts
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="unit descriptor"
+                                        id="unit-descriptor">
+                                    <label class="form-check-label" for="unit-descriptor">
+                                        unit descriptor
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="unit outcomes/objectives"
+                                        id="unit-outcomes-objectives">
+                                    <label class="form-check-label" for="unit-outcomes-objectives">
+                                        unit outcomes/objectives
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="unit syllabus"
+                                        id="unit-syllabus">
+                                    <label class="form-check-label" for="unit-syllabus">
+                                        unit syllabus
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox"
+                                        value="assessed coursework/project work" id="assessed-coursework-project-work">
+                                    <label class="form-check-label" for="assessed-coursework-project-work">
+                                        assessed coursework/project work
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="marked examination papers"
+                                        id="marked-examination-papers">
+                                    <label class="form-check-label" for="marked-examination-papers">
+                                        marked examination papers
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 5 Full Academic History -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            5 Full Academic History and Qualifications
+                        </h4>
+                    </div>
+
+                    <div>
+                        <p class="text-justify pt-2">
+                            Please list results, including those which are pending. Please attach photocopies of
+                            your certificate, transcripts, copies of all UK
+                            Visas, copies of previous CAS', enrollment letters, and student status letters. You
+                            <span class="fw-bold">must</span>
+                            give details of <span class="fw-bold">every</span> institution at which
+                            you have studied even if you did not receive an award from that institution.
+                        </p>
+                    </div>
+
+                    <form class="py-3">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        Name of institution
+                                    </th>
+
+                                    <th scope="col">
+                                        Programme of Study
+                                    </th>
+
+                                    <th scope="col">
+                                        NQF Level if studied in the UK
+                                    </th>
+
+                                    <th scope="col">
+                                        Start Date of Course
+                                    </th>
+
+                                    <th scope="col">
+                                        End Date of Course
+                                    </th>
+
+                                    <th scope="col">
+                                        Certificate
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="full-academic-history-tbody">
+                            </tbody>
+                        </table>
+
+                        <!-- For add full-academic-history -->
+                        <form>
+                            <div class="d-flex">
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="name-of-institution"
+                                        placeholder="Name of institution">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="programme-of-study"
+                                        placeholder="Programme of Study">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="nqf-Level-if-studied in-the-uk"
+                                        placeholder="NQF Level if studied in the UK">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="start-date-of-course"
+                                        placeholder="Start Date of Course">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="text" class="form-control" id="end-date-of-course"
+                                        placeholder="End Date of Course">
+                                </div>
+
+                                <div class="mb-3 me-2">
+                                    <input type="file" class="form-control" id="degree-certificate"
+                                        placeholder="degree-certificate">
+                                </div>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary btn-sm" id="full-academic-history-add-btn" type="button">
+                                    Add
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Do you have a curtailment letter -->
+                        <div class="curtailment-letter">
+                            <div class="mb-3">
+                                <label for="curtailment-letter" class="form-label me-3 fw-bold">
+                                    Do you have a curtailment letter? (This is a letter from the UKVI to say that
+                                    you have a new visa expiry date) If yes please provide copy of letter
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="curtailment-letter"
+                                        id="curtailment-letter-yes" value="yes">
+                                    <label class="form-check-label" for="curtailment-letter-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="curtailment-letter"
+                                        id="curtailment-letter-no" value="no">
+                                    <label class="form-check-label" for="curtailment-letter-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- if Yes -->
+                            <div class="curtailment-letter-details">
+                                <form>
+                                    <div class="d-flex">
+                                        <div class="mb-3 me-2">
+                                            <input type="file" class="form-control" id="curtailment-letter-file">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-primary btn-sm" id="curtailment-letter-details-add-btn"
+                                            type="button">
+                                            Upload
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Do you have a previous Visa refusal letter? -->
+                        <div class="visa-refusal-letter pt-2">
+                            <div class="mb-3">
+                                <label for="visa-refusal-letter" class="form-label me-3 fw-bold">
+                                    Do you have a previous Visa refusal letter? If yes please provide copy of letter
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="visa-refusal-letter"
+                                        id="visa-refusal-letter-yes" value="yes">
+                                    <label class="form-check-label" for="visa-refusal-letter-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="visa-refusal-letter"
+                                        id="visa-refusal-letter-no" value="no">
+                                    <label class="form-check-label" for="visa-refusal-letter-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- if Yes -->
+                            <div class="visa-refusal-letter-details">
+                                <form>
+                                    <div class="d-flex">
+                                        <div class="mb-3 me-2">
+                                            <input type="file" class="form-control" id="visa-refusal-letter-file">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-primary btn-sm" id="visa-refusal-letter-add-btn"
+                                            type="button">
+                                            Upload
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 6 English Language Requirements -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            6 English Language Requirements
+                        </h4>
+                    </div>
+
+                    <div>
+                        <p class="text-justify pt-2">
+                            Please complete this section. It is very important to provide all the relevant details
+                            to enable us to assess your English level and
+                            determine whether you meet our entry level criteria in English. You will be required to
+                            provide evidence of your English level.
+                        </p>
+                    </div>
+
+                    <form class="py-3">
+                        <div>
+                            <div class="mb-2">
+                                <label class="form-label fw-bold">
+                                    Do you have any of the English qualifications listed below? (please tick all
+                                    that
+                                    apply):
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="IELTS" id="ielts">
+                                <label class="form-check-label" for="ielts">
+                                    IELTS
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="CAMBRIDGE" id="cambridge">
+                                <label class="form-check-label" for="cambridge">
+                                    CAMBRIDGE
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="GCSE" id="gsce">
+                                <label class="form-check-label" for="gsce">
+                                    GCSE
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="PEARSON TEST" id="prarson-test">
+                                <label class="form-check-label" for="prarson-test">
+                                    PEARSON TEST
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="NONE" id="none">
+                                <label class="form-check-label" for="none">
+                                    NONE
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 pt-3">
+                            <label for="other" class="form-label fw-bold">
+                                Other <small class="fw-normal">(please give details)</small>:
+                            </label>
+                            <input type="text" class="form-control" id="other">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="grade-score" class="form-label fw-bold">
+                                Grade / score:
+                            </label>
+                            <input type="text" class="form-control" id="grade-score">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="date-achieved" class="form-label fw-bold">
+                                Date achieved:
+                            </label>
+                            <input type="text" class="form-control" id="date-achieved">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 7 Personal Statement -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            7 Personal Statement
+                        </h4>
+                    </div>
+
+                    <div>
+                        <p class="text-justify pt-2">
+                            Applicants are required to provide a personal statement in support of your application.
+                            On a separate piece of paper please state
+                            your reasons for choosing this course, give details of any relevant experience, your
+                            career plans and other relevant supporting
+                            information. <span class="fw-bold">
+                                In order for your application to be processed your personal statement must
+                                explain why you want to study in
+                                the UK, why you wish to come to Bedfordshire, why you have chosen your course, and
+                                how
+                                it will help you fulfill your
+                                career goals.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 8 Physical or other Disability or Medical Condition -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            8 Physical or other Disability or Medical Condition
+                        </h4>
+                    </div>
+
+                    <form class="py-3">
+                        <!-- Do you have a disability -->
+                        <div class="disability pt-2">
+                            <div class="mb-3">
+                                <label for="disability" class="form-label me-3 fw-bold">
+                                    Do you have a disability or any condition which might necessitate special
+                                    arrangements or facilities?
+                                </label>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="disability" id="disability-yes"
+                                        value="yes">
+                                    <label class="form-check-label" for="disability-yes">
+                                        Yes
+                                    </label>
+                                </div>
+
+                                <div class="form-check me-2">
+                                    <input class="form-check-input" type="radio" name="disability" id="disability-no"
+                                        value="no">
+                                    <label class="form-check-label" for="disability-no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- if Yes -->
+                            <div class="disability-details">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="disability-details-info" class="form-label fw-bold">
+                                            Disability details information:
+                                        </label>
+                                        <textarea name="disability-details-info" id="disability-details-info" cols="30"
+                                            rows="10" class="form-control w-100">
+                                            </textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 9 How did you hear about us? -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">9 How did you hear about us?</h4>
+                    </div>
+
+                    <form class="py-3">
+                        <div class="mb-3 d-flex">
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="hear-about-us" id="by-agent">
+                                <label class="form-check-label" for="by-agent">
+                                    Agent
+                                </label>
+                            </div>
+
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="hear-about-us"
+                                    id="university-website">
+                                <label class="form-check-label" for="university-website">
+                                    University website
+                                </label>
+                            </div>
+
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="hear-about-us" id="exhibition">
+                                <label class="form-check-label" for="exhibition">
+                                    Exhibition
+                                </label>
+                            </div>
+
+                            <div class="form-check me-2">
+                                <input class="form-check-input" type="radio" name="hear-about-us" id="search-engine">
+                                <label class="form-check-label" for="search-engine">
+                                    Search engine
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="website-online-directory" class="form-label fw-bold">
+                                Website / Online directory listing <small class="fw-normal">(please
+                                    specify)</small>:
+                            </label>
+                            <input type="text" class="form-control" id="website-online-directory">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="social-media-website" class="form-label fw-bold">
+                                Social Media website <span class="fw-normal">(please specify)</span>:
+                            </label>
+                            <input type="text" class="form-control" id="social-media-website">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="by-other" class="form-label fw-bold">
+                                Other <span class="fw-normal">(please specify)</span>:
+                            </label>
+                            <input type="text" class="form-control" id="by-other">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 10 References -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">10 References</h4>
+                    </div>
+
+                    <form class="py-3">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">
+                                Names and addresses of two referees (the University may contact referees if
+                                required).
+                            </label>
+                        </div>
+
+                        <div>
+                            <label class="form-label">Reference - 1</label>
+                            <div class="mb-3">
+                                <label for="references-name-1" class="form-label fw-bold">
+                                    Name:
+                                </label>
+                                <input type="text" class="form-control" id="references-name-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-university-company-1" class="form-label fw-bold">
+                                    University/Company:
+                                </label>
+                                <input type="text" class="form-control" id="references-university-company-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-address-1" class="form-label fw-bold">
+                                    Address:
+                                </label>
+                                <textarea name="references-address-1" id="references-address-1" cols="30" rows="10"
+                                    class="form-control"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-city-1" class="form-label fw-bold">
+                                    City:
+                                </label>
+                                <input type="text" class="form-control" id="references-city-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-county-1" class="form-label fw-bold">
+                                    County:
+                                </label>
+                                <input type="text" class="form-control" id="references-county-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-postcode-1" class="form-label fw-bold">
+                                    Postcode:
+                                </label>
+                                <input type="number" class="form-control" id="references-postcode-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-telephone-1" class="form-label fw-bold">
+                                    Telephone <small class="fw-normal">(including international code)</small>:
+                                </label>
+                                <input type="number" class="form-control" id="references-telephone-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-mobile-1" class="form-label fw-bold">
+                                    Mobile <small class="fw-normal">(including international code)</small>:
+                                </label>
+                                <input type="number" class="form-control" id="references-mobile-1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-email-1" class="form-label fw-bold">
+                                    Email:
+                                </label>
+                                <input type="email" class="form-control" id="references-email-1">
+                            </div>
+                        </div>
+
+                        <div class="pt-3">
+                            <label class="form-label">Reference - 2</label>
+                            <div class="mb-3">
+                                <label for="references-name-2" class="form-label fw-bold">
+                                    Name:
+                                </label>
+                                <input type="text" class="form-control" id="references-name-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-university-company-2" class="form-label fw-bold">
+                                    University/Company:
+                                </label>
+                                <input type="text" class="form-control" id="references-university-company-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-address-2" class="form-label fw-bold">
+                                    Address:
+                                </label>
+                                <textarea name="references-address-2" id="references-address-2" cols="30" rows="10"
+                                    class="form-control"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-city-2" class="form-label fw-bold">
+                                    City:
+                                </label>
+                                <input type="text" class="form-control" id="references-city-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-county-2" class="form-label fw-bold">
+                                    County:
+                                </label>
+                                <input type="text" class="form-control" id="references-county-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-postcode-2" class="form-label fw-bold">
+                                    Postcode:
+                                </label>
+                                <input type="number" class="form-control" id="references-postcode-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-telephone-2" class="form-label fw-bold">
+                                    Telephone <small class="fw-normal">(including international code)</small>:
+                                </label>
+                                <input type="number" class="form-control" id="references-telephone-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-mobile-2" class="form-label fw-bold">
+                                    Mobile <small class="fw-normal">(including international code)</small>:
+                                </label>
+                                <input type="number" class="form-control" id="references-mobile-2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="references-email-2" class="form-label fw-bold">
+                                    Email:
+                                </label>
+                                <input type="email" class="form-control" id="references-email-2">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 11 Data Protection and Declaration -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            11 Data Protection and Declaration
+                        </h4>
+                    </div>
+
+                    <div class="pt-2">
+                        <small>
+                            <p class="text-justify">
+                                I consent to the University of Bedfordshire’s use of my personal data, including
+                                sensitive data, to allow the University to fulfill its administrative
+                                obligations and to process my application. The University shall duly observe its
+                                obligations under the General Data Protection Regulations and any
+                                resulting legislation which arise from this application. The information I
+                                provide
+                                on the application form will be used for the following purposes, to:
+                            </p>
+
+                            <ul class="text-justify">
+                                <li>determine my eligibility for entry to the University of Bedfordshire</li>
+
+                                <li>provide me with relevant information to assist me in joining the University
+                                    (including information about Open Days, scholarships/discounts
+                                    and fees, enrollment at the University, my course, my faculty and the
+                                    University's facilities, the local area, accommodation providers engaged
+                                    through the University's approved accommodation system, internships and
+                                    career opportunities, visa advice and travel advice).
+                                </li>
+
+                                <li>enable the University of Bedfordshire to compile statistical reports.
+                                </li>
+
+                                <li>enable the University of Bedfordshire to initiate my student record.
+                                </li>
+                            </ul>
+
+                            <p class="text-justify">I consent to the University sharing this information with:</p>
+
+                            <ul class="text-justify">
+                                <li>
+                                    the relevant government departments. This includes: Higher Education
+                                    Statistical Agency, UK Visas and Immigration, Higher Education Access
+                                    Tracker (HEAT), Office for Fair Access and the Office for Students, Student
+                                    Loan Company, Department for Education and its agencies for the
+                                </li>
+                            </ul>
+
+                            <p class="text-justify">
+                                administration of bursaries for teacher training (for students on professional
+                                programmes, Early Years Teacher Status and English as a Foreign Language),
+                                Nursing and Midwifery Council, the Health and Care Professions Council and the
+                                General Medical Council (for students on nursing, midwifery, social work or
+                                youth courses), NHS Bursaries Unit (for students on NHS-funded courses). Health
+                                Education England and Health Education Thames Valley, and Frontline (a
+                                Government funded body which commissions social work training)
+                            </p>
+
+                            <ul class="text-justify">
+                                <li>
+                                    Public Sector regulatory bodies such as The British Council and the Office for
+                                    Standards in Education
+                                </li>
+
+                                <li>
+                                    bodies which are responsible for professional accreditation of my course, if
+                                    applicable
+                                </li>
+
+                                <li>
+                                    the Police or other authority in relation to crime prevention or investigation,
+                                    or in association with the Government's Prevent agenda
+                                </li>
+
+                                <li>
+                                    accommodation providers (where applicable) who are engaged through the
+                                    University's approved accommodation system; Liberty Living and Student Village
+                                </li>
+
+                                <li>
+                                    UCAS (through the completion of a Record of Prior Acceptance (RPA) in compliance
+                                    with the UCAS Undergraduate Application and Recruitment Policy), and
+                                    NARIC (in order to establish the equivalent level and verify a qualification if
+                                    applicable)
+                                </li>
+
+                                <li>
+                                    John Smith’s bookshop and Aspire Gym so that if, I am eligible to receive a
+                                    BedsMoney card, I can use it to purchase learning materials or gym membership,
+                                    respectively
+                                </li>
+
+                                <li>
+                                    any partner of the University which is delivering the programme or whose
+                                    premises are used for the delivery of a programme, for which I have registered
+                                    on
+                                    with the University
+                                </li>
+
+                                <li>
+                                    my sponsor (if any) in order to confirm sponsorship and invoice for payment of
+                                    fees
+                                </li>
+
+                                <li>
+                                    my referees as listed in Section 10 of this application form
+                                </li>
+
+                                <li>
+                                    my representative/agent outside the EEA or in my home country (if applicable) as
+                                    listed in Section 3 of this application form
+                                </li>
+                            </ul>
+
+                            <p class="text-justify">
+                                If I have not used a representative/agent in my home country, I consent to the
+                                University sharing this information outside the EEA to a representative/agent
+                                in my home country in order to support my application to the University and for the
+                                relevant visa
+                            </p>
+
+                            <p class="text-justify">
+                                In the event that I do not register as a student of the University of Bedfordshire,
+                                the University will retain my personal information for the rest of the
+                                academic year for which I have applied plus one further academic year. In the event
+                                that I do register, my data will be managed as per the student
+                                agreement which I will sign upon registration.
+
+                            </p>
+
+                            <form class="py-3">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="signature-1" class="form-label fw-bold">
+                                                Signature:
+                                            </label>
+                                            <input type="text" class="form-control" id="signature-1">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="signature-1-fullname" class="form-label fw-bold">
+                                                Full name:
+                                            </label>
+                                            <input type="text" class="form-control" id="signature-1-fullname">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <p class="text-justify">
+                                I hereby certify that all of the above information is correct and complete, and I
+                                wish to apply for admission as a student of the University. I also declare that,
+                                if admitted I shall conform to all the Rules and Regulations of the University of
+                                Bedfordshire. I understand that the submission of any misleading information
+                                during the admission process could lead to the immediate cancellation of my
+                                application and the withdrawal of any offer made. In the event that I register as
+                                a student of the University of Bedfordshire, I hereby undertake to pay, as and when
+                                due, all University fees. I grant permission to the University of
+                                Bedfordshire to request information pertaining to my current or previous visa status
+                                in the UK from the Home Office, if necessary.
+                            </p>
+
+                            <form class="py-3">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="signature-2" class="form-label fw-bold">
+                                                Signature:
+                                            </label>
+                                            <input type="text" class="form-control" id="signature-1">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="mb-3">
+                                            <label for="signature-date" class="form-label fw-bold">
+                                                Date:
+                                            </label>
+                                            <input type="text" class="form-control" id="signature-date">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </small>
+                    </div>
+                </div>
+
+                <!-- Notes for Guidance -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            Notes for Guidance
+                        </h4>
+                    </div>
+
+                    <div class="pt-2">
+                        <small>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">General</span><br>
+                                        Before completing the form, please ensure that you read these notes
+                                        carefully. You should also read the current University of Bedfordshire
+                                        literature relating to the course(s) in which you are interested.
+                                    </div>
+
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 1 Personal details</span><br>
+                                        Complete this section in BLOCK CAPITALS. If you do not have a current
+                                        valid passport you will need to apply for one. Without a passport we will
+                                        not be able to issue you with an Unconditional Offer nor will you be able
+                                        to apply for a visa.
+                                    </div>
+
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 2 Fee status</span><br>
+                                        Please state your country of permanent residence and give details of
+                                        who you expect to pay your fees for the proposed course.
+                                    </div>
+
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 4 Details of course(s) for which you wish to
+                                            apply</span><br>
+
+                                        Level of Entry – If you qualify for advanced entry to your chosen course
+                                        of study please submit your current academic qualifications such as a
+                                        transcript. Please also submit, where possible, the relevant unit's
+                                        syllabus. If you feel your professional experience makes you eligible for
+                                        advanced entry please submit evidence. If you wish to indicate an order of
+                                        preference for your course choices you may do so. If you do not indicate an
+                                        order of preference then it will be assumed that you have none.
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 5 Academic History
+                                        </span><br>
+
+                                        Enter the exact subject name used by the examining body and the name
+                                        of the examining body in full. If you have qualifications obtained outside
+                                        the UK, you should give details of all examinations taken as preparation
+                                        for entry to higher education (e.g School and Higher School Certificate,
+                                        Apolytirion, Baccalaureat). Applicants with qualifications obtained in a
+                                        language other than English, must attach a certified English transcript to
+                                        the form.
+                                    </div>
+
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 8 Disability/special needs
+                                        </span><br>
+
+                                        Describe your condition and, where it is not obvious, indicate whether
+                                        you have special needs.
+                                    </div>
+
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 10 References
+                                        </span><br>
+
+                                        <p class="text-justify">
+                                            Please supply the name and contact details of an academic reference
+                                            from your current or previous studies. This need not be related to the
+                                            course you are applying for. We will contact referees if required.
+                                        </p>
+                                    </div>
+
+                                    <div class="text-justify pb-3">
+                                        <span class="fw-bold">Section 11 Data Protection and Declaration
+                                        </span><br>
+
+                                        <p class="text-justify">
+                                            We require your consent for us to store and process the information you
+                                            supply on this form. We cannot process your application without your
+                                            consent.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </small>
+                    </div>
+                </div>
+
+                <!-- DOCUMENT CHECKLIST - DO NOT SEND ORIGINAL DOCUMENTS -->
+                <div class="pt-2">
+                    <div class="bg-primary text-white">
+                        <h4 class="py-2 px-4">
+                            DOCUMENT CHECKLIST - DO NOT SEND ORIGINAL DOCUMENTS
+                        </h4>
+                    </div>
+
+                    <form class="py-3">
+                        <div>
+                            <div class="mb-2">
+                                <label class="form-label fw-bold text-primary">
+                                    Please make sure you include the following documents with your application
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    value="Application Form and Data Protection/Declaration signature"
+                                    id="protection-declaration">
+
+                                <label class="form-check-label" for="protection-declaration">
+                                    Application Form and Data Protection/Declaration signature
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    value="Copies of your Academic Certificates/Transcripts"
+                                    id="certificates-transcripts">
+                                <label class="form-check-label" for="certificates-transcripts">
+                                    Copies of your Academic Certificates/Transcripts
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    value="Copy of your English Language Examination Results"
+                                    id="english-language-examination">
+
+                                <label class="form-check-label" for="english-language-examination">
+                                    Copy of your English Language Examination Results
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Copy of current passport"
+                                    id="current-passport">
+                                <label class="form-check-label" for="current-passport">
+                                    Copy of current passport
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    value="Personal Statement including why you want to study in the UK, why you have chosen
+                                Bedfordshire, why you have chosen your course and how it will help fulfill your career goals" id="personal-statement">
+
+                                <label class="form-check-label" for="personal-statement">
+                                    Personal Statement including why you want to study in the UK, why you have
+                                    chosen
+                                    Bedfordshire, why you have chosen your course and how it will help fulfill your
+                                    career goals
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    value="Previous visa and visa refusal documentation " id="previous-visa">
+                                <label class="form-check-label" for="previous-visa">
+                                    Previous visa and visa refusal documentation
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Form Submisson -->
+                <div class="pt-2">
+                    <button class="btn btn-primary w-100" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-2">
+        <small>Copyright &copy; 2021 built with <span>&hearts;</span> by Md.
+            Rifat
+            Islam</small>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- External Scripts -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
